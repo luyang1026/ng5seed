@@ -1,0 +1,397 @@
+<div class="wrap">
+    <div class="wrapCenter">
+        <div class="baseInfo">
+            <div class="baseInfotitle">
+                基本信息
+            </div>
+            <div class="baseInfocenter">
+                <form action="" method="get" class="baseInfoform">
+                    <span class="101title">101汇总纳税企业:</span>
+                    <div class="dis">
+                        <label>是(<input name="Fruit" type="radio" value="" /> 总机构</label>
+                        <label><input name="Fruit" type="radio" value="" />按比例缴纳总结构</label>)
+                        <label><input name="Fruit" type="radio" value="" />否</label>
+                    </div>
+
+                </form>
+                <div class="ctwo">
+                    <span>104从业人数：</span>
+                    <input type="text" name="" value="" class="ctwo_input">
+                    <span> 提示:[(1月+3月)/2+(4月+6月)/2+(7月+9月)/2+(10月+12月)/2]/4，此处默认取值12月的从业人数</span>
+                </div>
+                <div class="cthree">
+                    105资产总额(万元):<input type="text" name="" value="">
+                </div>
+            </div>
+        </div>
+        <div class="mianPolicies">
+            <div class="mianPoliciestitle">
+                主要会计政策和估计
+            </div>
+            <div class="policiesCenter">
+                <div class="policies201">
+                    201适用的会计准则或会计制度：
+                    <select>
+                      <option value ="1">小企业会计准则</option>
+                      <option value ="2">小企业会计准则</option>
+                      <option value="3">小企业会计准则</option>
+                      <option value="4">小企业会计准则</option>
+                    </select>
+                </div>
+                <div class="policies203">
+                    203会计核算软件
+                    <select>
+                        <option value ="1">其他</option>
+                        <option value ="2">其他</option>
+                        <option value="3">其他</option>
+                        <option value="4">其他</option>
+                    </select>
+                </div>
+                <div class="policies206">
+                    <form action="" method="get">
+                        206固定资产折旧方法:
+                        <label><input name="Fruit" type="checkbox" value="" />年限平均法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />工作量法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />双倍余额递减法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />年数总和法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />其他 </label>
+                    </form>
+                </div>
+                <div class=" policies207">
+                    <form action="" method="get">
+                        207存货成本计价方法:
+                        <label><input name="Fruit" type="checkbox" value="" />先进先出法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />移动加权平均法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />月末一次加权平均法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />个别计价法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />毛利率法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />零售价法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />计划成本法 </label>
+                        <label><input name="Fruit" type="checkbox" value="" />其他 </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="shareholder">
+            <div class="shareholdertitle">
+                企业主要股东及其对外投资情况
+            </div>
+            <div>
+                对外投资(前5位)
+            </div>
+            <table class="reference" border="1">
+                <tbody>
+                    <tr>
+                        <th>选择</th>
+                        <th>被投资者名称</th>
+                        <th>纳税人识别号</th>
+                        <th>经济性质</th>
+                        <th>投资比例</th>
+                        <th>投资金额</th>
+                        <th>注册地址</th>
+                    </tr>
+                    <tr>
+                        <td align="center"> <input name="Fruit" type="checkbox" value="" /></td>
+                        <td></td>
+                        <td></td>
+                        <td align="center">
+                            <select>
+                              <option value ="1">其他</option>
+                              <option value ="2">其他</option>
+                              <option value="3">其他</option>
+                              <option value="4">其他</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"> <input name="Fruit" type="checkbox" value="" /></td>
+                        <td></td>
+                        <td></td>
+                        <td align="center">
+                            <select>
+                              <option value ="1">其他</option>
+                              <option value ="2">其他</option>
+                              <option value="3">其他</option>
+                              <option value="4">其他</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"> <input name="Fruit" type="checkbox" value="" /></td>
+                        <td></td>
+                        <td></td>
+                        <td align="center">
+                            <select>
+                              <option value ="1">其他</option>
+                              <option value ="2">其他</option>
+                              <option value="3">其他</option>
+                              <option value="4">其他</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"> <input name="Fruit" type="checkbox" value="" /></td>
+                        <td></td>
+                        <td></td>
+                        <td align="center">
+                            <select>
+                              <option value ="1">其他</option>
+                              <option value ="2">其他</option>
+                              <option value="3">其他</option>
+                              <option value="4">其他</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"> <input name="Fruit" type="checkbox" value="" /></td>
+                        <td></td>
+                        <td></td>
+                        <td align="center">
+                            <select>
+                              <option value ="1">其他</option>
+                              <option value ="2">其他</option>
+                              <option value="3">其他</option>
+                              <option value="4">其他</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+        <div class="checkForm">
+            <div class="checkFormtitle">
+                勾选报表
+            </div>
+            <div class="checkFormlist">
+                <ul>
+                    <li>
+                        <span>A000000</span>
+                        <span>企业基础信息表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A100000</span>
+                        <span>中华人民共和国企业所得税年度纳税申请表(A类)</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A101010</span>
+                        <span>一般企业收入明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A101020</span>
+                        <span>金融企业收入明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A102010</span>
+                        <span>一般企业成本支出明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A102020</span>
+                        <span>金融企业支出明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A1030000</span>
+                        <span>事业单位 民间非营利组织收入</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li><span>A104000</span>
+                        <span>器件费用明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A1050000</span>
+                        <span>纳税调整项目明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105010</span>
+                        <span>视同销售和房地产开发企业特定业务纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105020</span>
+                        <span>未按权责发生确认收入纳税调整项目表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105030</span>
+                        <span>投资收益纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105040</span>
+                        <span>专项用途财政性资金纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105050</span>
+                        <span>职工薪酬纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105060</span>
+                        <span>广告费和业务宣传费跨年度纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105070</span>
+                        <span>捐赠支出纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A000000</span>
+                        <span>企业基础信息表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A100000</span>
+                        <span>中华人民共和国企业所得税年度纳税申请表(A类)</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A101010</span>
+                        <span>一般企业收入明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A101020</span>
+                        <span>金融企业收入明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A102010</span>
+                        <span>一般企业成本支出明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A102020</span>
+                        <span>金融企业支出明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A1030000</span>
+                        <span>事业单位 民间非营利组织收入</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li><span>A104000</span>
+                        <span>器件费用明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A1050000</span>
+                        <span>纳税调整项目明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105010</span>
+                        <span>视同销售和房地产开发企业特定业务纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105020</span>
+                        <span>未按权责发生确认收入纳税调整项目表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105030</span>
+                        <span>投资收益纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105040</span>
+                        <span>专项用途财政性资金纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105050</span>
+                        <span>职工薪酬纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105060</span>
+                        <span>广告费和业务宣传费跨年度纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                    <li>
+                        <span>A105070</span>
+                        <span>捐赠支出纳税调整明细表</span>
+                        <input name="Fruit" type="checkbox" value="" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerButton">
+            <div class="reset">
+                <div>重新初始化</div>
+            </div>
+            <div class="nextStep">
+                <div>下一步</div>
+            </div>
+            <div class="absort">
+                <div>取消</div>
+            </div>
+            <div class="save">
+                <div>暂存</div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="mask" *ngIf="flag">
+        <div class="maskCenter">
+            <div class="maskBt" (click)='autoMsg()'>
+                <div>自动初始化</div>
+            </div>
+            <div class="maskBtnone" (click)='noMsg()'>
+                <div>
+                    无需初始化
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maskConfirm" *ngIf="pointFlag">
+        <div class="confirmTitle">
+            <span>信息</span>
+        </div>
+        <div class="pointTitle">
+            <span>
+            系统将采集不到【弥补亏损】等重要信息,是否确认此操作?
+          </span>
+        </div>
+        <div class="pointButton">
+            <div class="cancel" (click)='noMsg()'>
+                <div>
+                    取消
+                </div>
+            </div>
+            <div class="confirm" (click)='noMsg()'>
+                <div>
+                    确认
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

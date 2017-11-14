@@ -1,0 +1,23 @@
+<ul>
+  <li>
+    <h1>
+      <a routerLink="/base">Base</a>
+    </h1>
+  </li>
+  <li>
+    <h2>
+      <a routerLink="/portal/login">Login</a>
+    </h2>
+  </li>
+  <li>
+    <h2>
+      <a routerLink="/portal/register">Regist</a>
+    </h2>
+  </li>
+  <li>
+    <h2>
+      <a routerLink="/portal/forgetpw">Forgetpw</a>
+    </h2>
+  </li>
+</ul>
+<router-outlet></router-outlet>
