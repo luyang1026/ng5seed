@@ -1,6 +1,0 @@
-<ul>
-  <li>
-    <h2><a routerLink="/base">base</a></h2>
-  </li>
-</ul>
-<router-outlet></router-outlet>
